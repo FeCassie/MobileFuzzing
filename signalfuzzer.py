@@ -5,9 +5,9 @@ import os
 
 def SignalSEC():
 	print "\n"
-	print "SignalSEC MobileSafari Audio Fuzzer"
-	print "      Fatih Erdoğan @ FeCassie     " 
-	print "      http://www.signalsec.com     "
+	print "SignalSEC MobileBrowser Audio Fuzzer"
+	print "      Fatih Erdoğan @ FeCassie      " 
+	print "      http://www.signalsec.com      "
 	print "\n"
 
 def sesList():
