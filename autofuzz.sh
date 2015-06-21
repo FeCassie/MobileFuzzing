@@ -21,7 +21,7 @@ i=1
 while [ $i -lt $dosyanum ]
 do
 	cp ./Alarm.m4r ./$i$uzanti
-	./iosFuzzer $dosyaboyutu $offset $fuzzval ./$i$uzanti
+	./fuzzer $dosyaboyutu $offset $fuzzval ./$i$uzanti
 
 	let "offset += 1"
 	let "i += 1"
